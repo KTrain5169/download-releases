@@ -1,0 +1,46 @@
+site_name: Docs for download-releases
+site_description: Documentation for download-releases
+site_author: KTrain5369
+site_url: https://ktrain5369.me/download-releases
+
+remote_branch: deploy-this
+remote_name: github
+
+nav:
+  - Home: index.md
+  - Download: download.md
+  - How to use: how-to-use.md
+  - Troubleshooting: troubleshooting.md
+  - Contact: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KTrain5169
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/KTrain5169
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/ktrain5369.me
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/G6YvWhctjk
+
+extra_css:
+  - footer.css
+
+theme: 
+  name: material
+  palette:
+  - scheme: theme-github
+    primary: black
+    accent: white
+    toggle:
+      icon: fontawesome/brands/github
+      name: "Current: GitHub mock"
+  - scheme: theme-gitlab
+    primary: red
+    accent: white
+    toggle:
+      icon: fontawesome/brands/gitlab
+      name: "Current: GitLab mock"
+plugins:
+  - search

@@ -1,0 +1,10 @@
+/* Change the footer background to match the primary color */
+.md-footer {
+    background-color: var(--md-primary-fg-color); /* Matches the primary foreground color */
+    color: var(--md-primary-bg-color); /* Ensures text contrasts well */
+}
+
+/* Optional: Override links in the footer to match the accent color */
+.md-footer a {
+    color: var(--md-accent-fg-color); /* Matches the accent foreground color */
+}
